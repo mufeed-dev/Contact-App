@@ -1,0 +1,69 @@
+{
+  "contacts": [
+    {
+      "id": "a2838312-1477-4036-8085-8cb02b3b7e26",
+      "name": "Mufeed",
+      "email": "mufeedpv.dev@gmail.com"
+    },
+    {
+      "id": "414f79c4-989a-4e72-97be-afd5a75985cd",
+      "name": "Ravi",
+      "email": "ravii@gmail.com"
+    },
+    {
+      "id": "9250be1e-be62-4c81-8d2c-8670c3309fa5",
+      "name": "Albin",
+      "email": "albin@outlook.com"
+    },
+    {
+      "id": "1c3b89b2-b44c-4256-bbc0-b61cbf9800e8",
+      "name": "Sooraj",
+      "email": "sooraj@yahoo.com"
+    },
+    {
+      "id": "2a5f8c3d-9b12-478e-b5a2-8e3c1f9d4b7a",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@hotmail.com"
+    },
+    {
+      "id": "3b6e9d4f-8c23-589a-c6b3-9f4d2e7a1b5c",
+      "name": "Arun Kumar",
+      "email": "arun.kumar@company.com"
+    },
+    {
+      "id": "4c7f0a5e-9d34-69ab-d7c4-0a5e3f8b2c6d",
+      "name": "Deepa Patel",
+      "email": "deepa.patel@tech.org"
+    },
+    {
+      "id": "5d8g1b6f-0e45-70bc-e8d5-1b6f4g9c3d7e",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@business.net"
+    },
+    {
+      "id": "6e9h2c7g-1f56-81cd-f9e6-2c7g5h0d4e8f",
+      "name": "Anita Reddy",
+      "email": "anita.reddy@gmail.com"
+    },
+    {
+      "id": "8g1j4e9i-3h78-03ef-h1g8-4e9i7j2f6g0h",
+      "name": "Sneha Nair",
+      "email": "sneha.nair@yahoo.com"
+    },
+    {
+      "id": "9h2k5f0j-4i89-14fg-i2h9-5f0j8k3g7h1i",
+      "name": "Karthik Iyer",
+      "email": "karthik.iyer@startup.io"
+    },
+    {
+      "id": "0i3l6g1k-5j90-25gh-j3i0-6g1k9l4h8i2j",
+      "name": "Meera Joshi",
+      "email": "meera.joshi@design.co"
+    },
+    {
+      "id": "1j4m7h2l-6k01-36hi-k4j1-7h2l0m5i9j3k",
+      "name": "Sanjay Gupta",
+      "email": "sanjay.gupta@finance.biz"
+    }
+  ]
+}

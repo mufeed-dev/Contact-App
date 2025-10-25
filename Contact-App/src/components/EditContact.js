@@ -2,27 +2,28 @@ import React from "react";
 import { withRouter } from "./withRouter";
 import { Link } from "react-router-dom";
 
-class AddContact extends React.Component {
-  state = {
-    name: "",
-    email: "",
-  };
+class EditContact extends React.Component {
+  constructor(props) {
+    super(props);
+    const { id, name, email } = props.location.state.contact;
+    this.state = { id, name, email };
+  }
 
-  add = (e) => {
+  update = (e) => {
     e.preventDefault();
     if (this.state.name === "" || this.state.email === "") {
       alert("All the fields are mandatory!");
       return;
     }
-    this.props.addContactHandler(this.state);
+    this.props.updateContactHandler(this.state);
     this.setState({ name: "", email: "" });
     this.props.navigate("/");
   };
   render() {
     return (
       <div className="ui main" style={{ paddingTop: "50px" }}>
-        <h3>Add Contact</h3>
-        <form className="ui form" onSubmit={this.add}>
+        <h3>Edit Contact</h3>
+        <form className="ui form" onSubmit={this.update}>
           <div className="field">
             <label>Name</label>
             <input
@@ -58,7 +59,7 @@ class AddContact extends React.Component {
               className="ui button blue "
               style={{ position: "absolute", left: "40%" }}
             >
-              Add
+              Update
             </button>
           </div>
         </form>
@@ -67,4 +68,4 @@ class AddContact extends React.Component {
   }
 }
 
-export default withRouter(AddContact);
+export default withRouter(EditContact);
