@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const ContactCard = (props) => {
   const { id, name, email } = props.contact;
 
+  const handleDeleteClick = () => {
+    const isConfirmed = window.confirm(
+      `Are you sure you want to delete ${name}?`
+    );
+
+    if (isConfirmed) {
+      props.clickHandler(id);
+    }
+  };
+
   return (
     <div className="item" key={id}>
       <img src={user} alt="user" className="ui avatar image" />
@@ -29,7 +39,7 @@ const ContactCard = (props) => {
             marginLeft: "10px",
             cursor: "pointer",
           }}
-          onClick={() => props.clickHandler(id)}
+          onClick={handleDeleteClick}
         ></i>
       </div>
     </div>
